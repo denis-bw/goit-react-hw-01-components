@@ -28,3 +28,7 @@ export const TransactionHistory = ({items}) => {
         </div>
     );
 };
+
+TransactionHistory.propTypes = {
+    items: PropTypes.array,
+};
